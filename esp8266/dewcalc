@@ -1,0 +1,3 @@
+if (humidity==0)
+return temp;
+double dew_numer = 243.04*(log(double(humidity)/100.0)+((17.625*temp)/(temp+243.04)));
